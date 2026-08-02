@@ -1,7 +1,24 @@
 aid: wishup
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wishup.png
 name: Wishup
-description: Wishup is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Wishup is a remote-work outsourcing platform that matches businesses with pre-vetted
+  virtual assistants, bookkeepers, and automation specialists, typically onboarding a trained
+  professional within 60 minutes. Its managed talent handles inbox and calendar management, CRM
+  and social-media work, bookkeeping, project management, and AI-driven workflow automation across
+  industries such as healthcare, e-commerce, real estate, startups, nonprofits, and legal services.
+  Wishup runs a client-facing Employee Management App for task tracking and real-time feedback, but
+  publishes no public developer API or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/wishup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Virtual Assistants
+- Outsourcing
+- Remote Work
+- Bookkeeping
+- Automation
+- Staffing
+- Productivity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://wishup.co
+- type: Pricing
+  url: https://www.wishup.co/hire
+- type: Blog
+  url: https://www.wishup.co/blog/
+- type: Support
+  url: https://www.wishup.co/support
+- type: Login
+  url: https://app.wishup.co/wishlist
+- type: TermsOfService
+  url: https://www.wishup.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.wishup.co/privacy-policy
+- type: DomainSecurity
+  url: security/wishup-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
