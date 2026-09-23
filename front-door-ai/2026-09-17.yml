@@ -1,0 +1,29 @@
+# Front Door AI Index — wishup — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: wishup
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: wishup.co
+  final_host: www.wishup.co
+  ownership: own
+  owner: wishup
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 49
+  host_score: 49
+  density: 13.56
+  words: 3613
+  tiers:
+    agentic: 41
+    core: 7
+    model: 1
+  ambiguous: 11
+  top_terms:
+    virtual assistant: 41
+    automation: 9
+    AI: 7
+    smart: 2
+    ChatGPT: 1
